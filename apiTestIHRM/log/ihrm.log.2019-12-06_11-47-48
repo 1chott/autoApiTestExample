@@ -1,0 +1,24 @@
+2019-12-06 11:47:14,933 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 11:47:15,420 INFO [root] [test_a_login.py(test_login:38)] - 开始测试登陆接口：请求数据是:【{'mobile': '13800000002', 'password': '123456'}】
+2019-12-06 11:47:15,534 INFO [root] [test_a_login.py(test_login:40)] - 登陆接口返回的数据是：【{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9c3999b1-a6ea-4783-aa4d-13781bc8dc1a'}】
+2019-12-06 11:47:15,535 INFO [root] [test_a_login.py(test_login:48)] - 全局变量HEADERS为： {'Content-Type': 'application/json', 'Authorization': 'Bearer 9c3999b1-a6ea-4783-aa4d-13781bc8dc1a'}
+2019-12-06 11:47:15,535 INFO [root] [test_a_login.py(test_login:53)] - 登陆接口断言通过。
+2019-12-06 11:47:15,535 INFO [root] [test_b_emp.py(test_01_add_emp:27)] - 开始测试添加员工接口请求头是： {'Content-Type': 'application/json', 'Authorization': 'Bearer 9c3999b1-a6ea-4783-aa4d-13781bc8dc1a'}
+2019-12-06 11:47:15,622 INFO [root] [test_b_emp.py(test_01_add_emp:29)] - 添加员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796604494794752'}}
+2019-12-06 11:47:15,622 INFO [root] [test_b_emp.py(test_01_add_emp:34)] - 获取员工id为 1202796604494794752
+2019-12-06 11:47:15,711 INFO [root] [test_b_emp.py(test_02_search_emp:39)] - 查询员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796604494794752', 'mobile': '13300133004', 'username': '那托4', 'password': 'af0b9843905215b5e1fa2f206a976923', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 11:47:15,799 INFO [root] [test_b_emp.py(test_03_modify_emp:46)] - 修改员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796604494794752'}}
+2019-12-06 11:47:16,003 INFO [root] [test_b_emp.py(test_03_modify_emp:55)] - 数据库查询结果：('我是那托4',)
+2019-12-06 11:47:16,094 INFO [root] [test_b_emp.py(test_04_delete_emp:65)] - 删除员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-06 11:47:47,787 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 11:47:47,981 INFO [root] [test_a_login.py(test_login:38)] - 开始测试登陆接口：请求数据是:【{'mobile': '13800000002', 'password': '123456'}】
+2019-12-06 11:47:48,096 INFO [root] [test_a_login.py(test_login:40)] - 登陆接口返回的数据是：【{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '142cbe24-3b43-4fed-9661-4125c7ae9486'}】
+2019-12-06 11:47:48,096 INFO [root] [test_a_login.py(test_login:48)] - 全局变量HEADERS为： {'Content-Type': 'application/json', 'Authorization': 'Bearer 142cbe24-3b43-4fed-9661-4125c7ae9486'}
+2019-12-06 11:47:48,096 INFO [root] [test_a_login.py(test_login:53)] - 登陆接口断言通过。
+2019-12-06 11:47:48,096 INFO [root] [test_b_emp.py(test_01_add_emp:27)] - 开始测试添加员工接口请求头是： {'Content-Type': 'application/json', 'Authorization': 'Bearer 142cbe24-3b43-4fed-9661-4125c7ae9486'}
+2019-12-06 11:47:48,189 INFO [root] [test_b_emp.py(test_01_add_emp:29)] - 添加员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796741073915904'}}
+2019-12-06 11:47:48,189 INFO [root] [test_b_emp.py(test_01_add_emp:34)] - 获取员工id为 1202796741073915904
+2019-12-06 11:47:48,274 INFO [root] [test_b_emp.py(test_02_search_emp:39)] - 查询员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796741073915904', 'mobile': '13300133004', 'username': '那托4', 'password': 'af0b9843905215b5e1fa2f206a976923', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 11:47:48,369 INFO [root] [test_b_emp.py(test_03_modify_emp:46)] - 修改员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202796741073915904'}}
+2019-12-06 11:47:48,580 INFO [root] [test_b_emp.py(test_03_modify_emp:55)] - 数据库查询结果：('我是那托4',)
+2019-12-06 11:47:48,669 INFO [root] [test_b_emp.py(test_04_delete_emp:65)] - 删除员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

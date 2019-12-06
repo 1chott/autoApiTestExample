@@ -1,0 +1,11 @@
+2019-12-06 11:14:05,307 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 11:14:05,480 INFO [root] [test_a_login.py(test_login:38)] - 开始测试登陆接口：请求数据是:【{'mobile': '13800000002', 'password': '123456'}】
+2019-12-06 11:14:05,590 INFO [root] [test_a_login.py(test_login:40)] - 登陆接口返回的数据是：【{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3492bd1d-401c-4cb8-8d0b-804fdf0ce90e'}】
+2019-12-06 11:14:05,590 INFO [root] [test_a_login.py(test_login:48)] - 全局变量HEADERS为： {'Content-Type': 'application/json', 'Authorization': 'Bearer 3492bd1d-401c-4cb8-8d0b-804fdf0ce90e'}
+2019-12-06 11:14:05,590 INFO [root] [test_a_login.py(test_login:53)] - 登陆接口断言通过。
+2019-12-06 11:14:05,590 INFO [root] [test_b_emp.py(test_01_add_emp:25)] - 开始测试添加员工接口请求头是： {'Content-Type': 'application/json', 'Authorization': 'Bearer 3492bd1d-401c-4cb8-8d0b-804fdf0ce90e'}
+2019-12-06 11:14:05,679 INFO [root] [test_b_emp.py(test_01_add_emp:27)] - 添加员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202788258031161344'}}
+2019-12-06 11:14:05,679 INFO [root] [test_b_emp.py(test_01_add_emp:32)] - 获取员工id为 1202788258031161344
+2019-12-06 11:14:05,768 INFO [root] [test_b_emp.py(test_02_search_emp:36)] - 查询员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202788258031161344', 'mobile': '13300133004', 'username': '那托4', 'password': 'af0b9843905215b5e1fa2f206a976923', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 11:14:05,862 INFO [root] [test_b_emp.py(test_03_modify_emp:42)] - 修改员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202788258031161344'}}
+2019-12-06 11:14:06,042 INFO [root] [test_b_emp.py(test_04_delete_emp:50)] - 删除员工接口返回数据： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
