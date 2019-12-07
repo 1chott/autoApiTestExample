@@ -51,4 +51,4 @@ python run_suite.py
 
 #### 目录结构
 
-![目录结构](F:\渣渣班长2\gihub代码\autoApiTestExample\目录结构.png)
+![目录结构](.\目录结构.png)
