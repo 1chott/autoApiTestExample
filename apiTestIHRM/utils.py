@@ -37,6 +37,7 @@ class MysqlUtils:
             self.conn.close()
 
 
+# 读取添加员工测试数据
 def read_add_emp_data():
     data_path = app.BASE_DIR + '/data/emp_data.json'
     with open(data_path, 'r', encoding='utf-8')as f:
@@ -49,6 +50,7 @@ def read_add_emp_data():
         return params   # [['那托5', '13300133005', 200, True, 10000, '操作成功！']]
 
 
+# 读取查询员工测试数据
 def read_search_emp_data():
     data_path = app.BASE_DIR + '/data/emp_data.json'
     with open(data_path, 'r', encoding='utf-8')as f:
@@ -61,6 +63,7 @@ def read_search_emp_data():
         return params   # [[200, True, 10000, '操作成功！']]
 
 
+# 读取修改员工测试数据
 def read_modify_emp_data():
     data_path = app.BASE_DIR + '/data/emp_data.json'
     with open(data_path, 'r', encoding='utf-8')as f:
@@ -73,6 +76,7 @@ def read_modify_emp_data():
         return params   # [['我是那托5', 200, True, 10000, '操作成功！']]
 
 
+# 读取删除员工测试数据
 def read_delete_emp_data():
     data_path = app.BASE_DIR + '/data/emp_data.json'
     with open(data_path, 'r', encoding='utf-8')as f:
@@ -84,6 +88,8 @@ def read_delete_emp_data():
         print(params)
         return params   # [[200, True, 10000, '操作成功！']]
 
+
+# 调试用
 if __name__ == '__main__':
     read_delete_emp_data()
 

@@ -2,11 +2,13 @@ import os
 import logging
 from logging import handlers
 
+# 项目路径
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
+# 请求头
 HEADERS = {}
-
+# 员工ID
 EMP_ID = None
+
 
 def init_logger():
     # 实例化日志器、设置日志等级

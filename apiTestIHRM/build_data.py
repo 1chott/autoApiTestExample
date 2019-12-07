@@ -2,6 +2,9 @@ import json
 
 from apiTestIHRM.app import BASE_DIR
 
+
+# 构建测试数据工具
+
 # login_data = [
 #     ({'mobile': '13800000002', 'password': '123456'},
 #      {'status_code': 200, 'success': True, 'code': 10000, 'message': '操作成功！'}),
